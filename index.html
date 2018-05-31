@@ -1,72 +1,66 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>ball-3d</title>
-		<style type="text/css">
-			/**{padding: 0;margin: 0;}*/
-body{background-color: cornflowerblue;}
-#ball-box{
-	height: 300px;
-	width: 300px;
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="css/swiper-3.2.7.min.css">
+	<link rel="stylesheet" type="text/css" href="css/hd.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+  
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide one">
+				<div class="top ani" swiper-animate-effect="zoomIn" swiper-animate-duration='1.5s' swiper-animate-delay="0.3s" >
+					<img src="images/one.jpg" alt="" />
+				</div>
+				
+            </div>
+        
 	
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin: -150px 0 0 -150px;
-}
-#ball{height: 100%;
-transform-style: preserve-3d;
-animation: rotate3d 20s infinite linear;
-}
-@-webkit-keyframes rotate3d{
-	0%{transform: rotateY(0deg);}
-	100%{transform: rotateY(360deg);}
-}
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
 
-#ball>div{background-color: #f40;
-	border: 2px solid white;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	border-radius: 100%;
-	}
-.line-1{
-	transform: rotateY(0deg);
-}	
-.line-2{
-	transform: rotateY(36deg);
-}	
-.line-3{
-	transform: rotateY(72deg);
-}	
-.line-4{
-	transform: rotateY(108deg);
-}	
-.line-5{
-	transform: rotateY(144deg);
-}	
-#ball::after{
-	content: '';
-	width: 1px;
-	height: 500px;
-	background-color: #ff0;
-	display: block;
-	transform: translateX(150px) translateY(-100px);
-}
-/*编辑器不支持，谷歌浏览器里能看到旋转的效果*/
+	<!--音乐区域-->
+	<div id="music">
+		<img src="images/music.gif" alt="" class="music_bg" />
+		<img src="images/music_off.png" alt="" class="music_pic" />
+		<audio src="images/bgmusic.mp3" preload="auto" loop="loop" class="aud"></audio>
+	</div>
+	<!--音乐区域结束-->
 
-		</style>
-	</head>
-	<body>
-		<div id="ball-box">
-		<div id="ball">
-			<div class="line-1"></div>
-			<div class="line-2"></div>
-			<div class="line-3"></div>
-			<div class="line-4"></div>
-			<div class="line-5"></div>
-		</div>
-		</div>
-	</body>
+    <!-- Swiper JS -->
+    <script src="js/swiper-3.2.7.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/hd.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
