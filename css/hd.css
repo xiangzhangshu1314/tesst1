@@ -69,8 +69,8 @@ html, body {
 	margin-top: 10%;
 	overflow: hidden;
 }
-.swiper-slide.one .top img{margin-top: 28%;
-	width: 50%;
+.swiper-slide.one .top img{margin-top: 25%;
+	width: 60%;
 	border-radius:100% ;
 }
 .swiper-slide.one .bottom{
