@@ -63,18 +63,19 @@ html, body {
 }
 .swiper-slide.one .top{
 	width: 70%;
-	height: 50%;
+	height: 60%;
 	
 	margin: 0 auto;
 	margin-top: 10%;
 	overflow: hidden;
 }
-.swiper-slide.one .top img{margin-top: 20%;
-	width: 60%;
+.swiper-slide.one .top img{margin-top: 10%;
+	width: 50%;
 	border-radius:100% ;
 }
 
-.ring{width:60%;
+.ring{margin-top:5%;
+	width:60%;
 height: 50%;
 border-radius: 50%;}
 
