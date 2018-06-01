@@ -61,7 +61,7 @@ html, body {
 	background-image: url(../images/onebg.jpg);
 	background-size: 100% 100%;
 }
-.swiper-slide.one.top{
+.swiper-slide.one .top{
 	width: 70%;
 	height: 50%;
 	border: 9px white solid;
