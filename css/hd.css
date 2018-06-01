@@ -81,7 +81,9 @@ html, body {
 	margin-top: 5%;
 	position: relative;
 }
-
+.ring{width:60%;
+height: 50%;
+border-radius: 50%;}
 
 
 
