@@ -63,13 +63,13 @@ html, body {
 }
 .swiper-slide.one .top{
 	width: 70%;
-	height: 60%;
+	height: 50%;
 	
 	margin: 0 auto;
 	margin-top: 10%;
 	overflow: hidden;
 }
-.swiper-slide.one .top img{margin-top: 20%;
+.swiper-slide.one .top img{margin-top: 30%;
 	width: 50%;
 	border-radius:100% ;
 }
